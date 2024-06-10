@@ -1,0 +1,28 @@
+/* Displaying css properties */
+
+body {
+  /* This is an example of css properties */
+  background-color: dodgerblue;
+  font-family: "Inter";
+}
+
+/* CSS Selectors
+Simple selector, Combinator selector, Pseudo-class selector, Pseudo-element
+selector and Attribute selector.
+*/
+
+h3 ~ div {
+  color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  /* This is for mobile responsivenss */
+  body {
+    background-color: white;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

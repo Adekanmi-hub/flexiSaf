@@ -1,0 +1,10 @@
+$Primary_1: red;
+$Primary_2: white;
+$Primary_3: blue;
+$MyFont: Helvetica, sans-serif;
+
+body{
+    font-family: $MyFont;
+    background-color: $Primary_1;
+    color: $Primary_2;
+}
